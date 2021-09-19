@@ -2,12 +2,12 @@ const nearAPI  = require('near-api-js');
 const { connect, KeyPair, keyStores, utils } = nearAPI;
 
 //this is required if using a local .env file for private key
-require('dotenv').config();
+//require('dotenv').config();
 
 // configure accounts, network, and amount of NEAR to send
 // converts NEAR amount into yoctoNEAR (10^-24) using a near-api-js utility
-const sender = 'sender.testnet';
-const receiver = 'receiver.testnet';
+const sender = 'alyvethedefiant.testnet';
+const receiver = 'theregicide.testnet';
 const networkId = 'testnet';
 const amount = utils.format.parseNearAmount('1.5');
 
